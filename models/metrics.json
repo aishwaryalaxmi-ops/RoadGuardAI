@@ -1,0 +1,93 @@
+{
+  "dataset_rows": 1800,
+  "traffic": {
+    "model_name": "Logistic Regression",
+    "metrics": {
+      "accuracy": 0.8805555555555555,
+      "precision_macro": 0.8809764437369986,
+      "recall_macro": 0.8785458862401031,
+      "f1_macro": 0.8795657173945267,
+      "confusion_matrix": [
+        [
+          150,
+          12,
+          0
+        ],
+        [
+          17,
+          95,
+          7
+        ],
+        [
+          0,
+          7,
+          72
+        ]
+      ],
+      "roc_auc_ovr_weighted": 0.959196908219737
+    },
+    "cv_leaderboard": {
+      "Logistic Regression": {
+        "cv_f1_macro_mean": 0.8471425343353992,
+        "cv_f1_macro_std": 0.019073388092604816
+      },
+      "Decision Tree": {
+        "cv_f1_macro_mean": 0.7672209560033576,
+        "cv_f1_macro_std": 0.03521292285318242
+      },
+      "Random Forest": {
+        "cv_f1_macro_mean": 0.8410809372306876,
+        "cv_f1_macro_std": 0.015784910980025636
+      },
+      "XGBoost": {
+        "cv_f1_macro_mean": 0.8362290581438632,
+        "cv_f1_macro_std": 0.020089014793951424
+      }
+    }
+  },
+  "accident": {
+    "model_name": "Logistic Regression",
+    "metrics": {
+      "accuracy": 0.8666666666666667,
+      "precision_macro": 0.8584474707094811,
+      "recall_macro": 0.860081651834229,
+      "f1_macro": 0.8580629366839795,
+      "confusion_matrix": [
+        [
+          176,
+          22,
+          0
+        ],
+        [
+          13,
+          79,
+          5
+        ],
+        [
+          0,
+          8,
+          57
+        ]
+      ],
+      "roc_auc_ovr_weighted": 0.963862933242031
+    },
+    "cv_leaderboard": {
+      "Logistic Regression": {
+        "cv_f1_macro_mean": 0.8436119380087497,
+        "cv_f1_macro_std": 0.026920155709679025
+      },
+      "Decision Tree": {
+        "cv_f1_macro_mean": 0.7748824024789339,
+        "cv_f1_macro_std": 0.02099648629716722
+      },
+      "Random Forest": {
+        "cv_f1_macro_mean": 0.8290994907969583,
+        "cv_f1_macro_std": 0.020781797668431627
+      },
+      "XGBoost": {
+        "cv_f1_macro_mean": 0.8303438309711645,
+        "cv_f1_macro_std": 0.015705155429260206
+      }
+    }
+  }
+}
