@@ -1,4 +1,3 @@
-```text
 streamlit>=1.40
 pandas>=2.2
 numpy>=1.26
@@ -12,5 +11,3 @@ matplotlib
 ultralytics
 opencv-python-headless==4.11.0.86
 streamlit-js-eval
-```
-
